@@ -6,8 +6,6 @@
 
 - Make a job-search platofrm for Blue Collar Workers.
 
-## [VIEW LIVE DEMO](https://practical-jepsen-534aed.netlify.app/)
-
 **Note** : SMS can be sent to only Twilio verified numbers as I am not using the paid service.
 
 ## 🚧 Technology Stack
