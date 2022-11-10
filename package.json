@@ -22,7 +22,7 @@
     "react-speech-recognition": "^3.8.0"
   },
   "scripts": {
-    "start": "SET port=3600 && react-scripts start",
+    "start": "set port=3100 && react-scripts start",
     "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
