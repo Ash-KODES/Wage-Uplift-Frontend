@@ -3,11 +3,12 @@ import { useTranslation } from "react-i18next";
 import styles from "../../CSS/Navbar.module.css";
 import { NavDropdown } from "react-bootstrap";
 
+// functional based component
 const LanguageSelector = (props) => {
-  const { i18n } = useTranslation();
-  const changeLanguage = (event) => {
-    i18n.changeLanguage(event);
-  };
+  const { i18n } = useTranslation(); // https://react.i18next.com/latest/usetranslation-hook
+  const changeLanguage = (event) => { // creating a function named changeLanguage which pass the selected language from user to i18.n
+    i18n.changeLanguage(event); 
+  };   
 
   return (
     <NavDropdown
