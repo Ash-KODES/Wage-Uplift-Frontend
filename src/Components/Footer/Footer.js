@@ -1,6 +1,11 @@
 import React from "react";
 import { Container, Jumbotron, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+// React Router DOM is an npm package that enables you to implement dynamic routing in a web app. 
+// It allows you to display pages and allow users to navigate them. 
+// It is a fully-featured client and server-side routing library for React
+// Link component is used to create links to different routes
+// more can be found here->https://www.geeksforgeeks.org/what-is-react-router-dom/#:~:text=React%20Router%20DOM%20is%20an,side%20routing%20library%20for%20React.
 import Logo from "../../Assets/logo.PNG";
 import styles from "../../CSS/Footer.module.css";
 import {
@@ -12,11 +17,16 @@ import {
 import { BiCopyright } from "react-icons/bi";
 import { GrMail } from "react-icons/gr";
 import { useTranslation } from "react-i18next";
+//  React Icons is also an open-source library that 
+// can bring all the icons present in the world of applications all at once place in one directory.
 
 function Footer() {
+  // useTranslation()->used to convert any text from one language to another
   const { t } = useTranslation();
 
   return (
+    // jumbotron -> https://www.youtube.com/watch?v=P3RiSG77HV8      (detailed explanation)
+    // A jumbotron indicates a big grey box for calling extra attention to some special content or information.
     <Jumbotron id="contact" className={styles.Jumbotron}>
       <Container className={styles.Container}>
         <Row className={styles.Top1}>
