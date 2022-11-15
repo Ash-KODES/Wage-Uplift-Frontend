@@ -6,7 +6,7 @@
 
 - Make a job-search platofrm for Blue Collar Workers.
 
-**Note** : SMS can be sent to only Twilio verified numbers as I am not using the paid service.
+**Note** : SMS can be sent to only Twilio verified numbers as I am not using the paid service available.
 
 ## 🚧 Technology Stack
 
