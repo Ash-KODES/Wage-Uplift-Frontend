@@ -63,7 +63,8 @@ class Opportunity extends Component {
             <Container className={styles.Cards}>
               {data.jobs.map((item) => {
                 return <OpportunityCard key={item.id} item={item} />;
-              })}
+              })}z
+      {/* Map is like a for loop means it iterates the list as long as elements are present in it*/}
             </Container>
           </Jumbotron>
         </div>
