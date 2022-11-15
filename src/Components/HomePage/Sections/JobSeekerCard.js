@@ -13,6 +13,8 @@ function KnowAbout(props) {
           marginRight: "0px",
         }}
       >
+        {/* Variant:Define image position inside cards */}
+        
         {/* <Card.Header style = {{background: "#bd6997"}}></Card.Header> */}
         <Card.Img
           variant="top"
