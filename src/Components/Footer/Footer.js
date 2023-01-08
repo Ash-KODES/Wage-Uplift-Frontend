@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Jumbotron, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
 // React Router DOM is an npm package that enables you to implement dynamic routing in a web app. 
 // It allows you to display pages and allow users to navigate them. 
 // It is a fully-featured client and server-side routing library for React
